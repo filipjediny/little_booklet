@@ -5,6 +5,7 @@ generate_booklet changes the page order of the input pdf so that double-sided A6
 If you only need the page order, you can use generate_sequence.
 
 Example:
+
 normal 4 pages per sheet pdf - 1 2 3 4, 5 6 7 8
 
 4 pages per sheet after reordering - 4 5 2 7, 6 3 8 1
