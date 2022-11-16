@@ -4,4 +4,4 @@ If you only need the page ordering, you can use generate_sequence.
 
 generate_booklet uses PyPDF2 library which is in the lib folder.
 To use your own globally-installed PyPDF2 library, don't forget to change
-the imports in generate_booklet from (from lib.PyPDF2 import PdfFileWriter, from lib.PyPDF2 import PdfFileReader) to (from PyPDF2 import PdfFileWriter, PdfFileReader)
+the imports in generate_booklet from (from lib.PyPDF2 import PdfFileWriter, from lib.PyPDF2 import PdfFileReader) to (from PyPDF2 import PdfFileWriter, PdfFileReader).
