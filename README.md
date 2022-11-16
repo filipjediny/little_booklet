@@ -12,6 +12,6 @@ normal 4 pages per sheet pdf - 1 2 3 4, 5 6 7 8
 
 *The program lists the back pages after all the front pages, which means you should print the first ceil(P/8) pages, flip the entire stack over the main axis, load it into the tray, and then print the rest.*
 
-The generate_booklet uses the PyPDF2 library, which is located in the lib folder.
+generate_booklet uses the PyPDF2 library, which is located in the lib folder.
 If you are using your own globally installed PyPDF2 library, be sure to change it.
 import in generate_booklet from (from lib.PyPDF2 import PdfFileWriter, from lib.PyPDF2 import PdfFileReader) to (from PyPDF2 import PdfFileWriter, PdfFileReader).
