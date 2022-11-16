@@ -6,6 +6,7 @@ If you only need the page order, you can use generate_sequence.
 
 Example:
 normal 4 pages per sheet pdf - 1 2 3 4, 5 6 7 8
+
 4 pages per sheet after reordering - 4 5 2 7, 6 3 8 1
 
 *The program lists the back pages after all the front pages, which means you should print the first ceil(P/8) pages, flip the entire stack over the main axis, load it into the tray, and then print the rest.*
